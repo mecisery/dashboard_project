@@ -30,7 +30,7 @@ dt {
 }
 
 .topbar {
-  background: #f2f2f2;
+  background: #E7E7E7;
   border-bottom: 1px solid #e5e5e5;
   padding: 10px 25px;
   margin-top: 0;
@@ -88,7 +88,6 @@ h2 {
 }
 
 body {
-  background: #fff url(../img/dots.png) repeat center top;
   min-width: 890px;
   font-family: Ubuntu, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif;
 }
@@ -96,7 +95,7 @@ body {
 /* Login Splash Page */
 
 #splash .login {
-  background: #DD4814 url(../img/ubuntu.png) no-repeat center 35px;
+  background: #DC291E;
   position: absolute;
   top: 80px;
   left: 50%;
@@ -150,10 +149,13 @@ body {
 }
 
 .sidebar {
-    background: #F2F2F2;
-    border-right: 5px solid #e5e5e5;
-    border-bottom: 5px solid #e5e5e5;
+    background: #000000;
+    border-right: 2px solid #000000;
+   //border-right: 5px solid #e5e5e5;
+   //border-bottom: 5px solid #e5e5e5;
     float: left;
+    height:850px;
+    margin-bottom: 0px;
 }
 
 .sidebar h4 {
@@ -172,24 +174,26 @@ body {
 h1.brand {
     width: 100%;
     margin: 0;
-    background: #DD4814 url(../img/header_stripes.png) repeat-x top left;
-    border-bottom: 2px solid #c44012;
+    //background: #DC291E url(../img/header_stripes.png) repeat-x top left;
+    background: #951F1F;
+    //border-bottom: 2px solid #c44012;
     position: absolute;
-    height: 62px;
+    //height: 62px;
+    height: 50px;
     top: 0;
     z-index: 1;
 }
 
 h1.brand a {
-    background: url(../img/ubuntu.png) top left no-repeat;
+    background: #951F1F url(../img/lenovo.jpg) top left no-repeat;
     display: block;
     float: left;
-    width: 312px;
-    height:27px;
+    width: 224px;
+    height:108px;
     text-indent: -9999px;
-    margin-left: 30px;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
