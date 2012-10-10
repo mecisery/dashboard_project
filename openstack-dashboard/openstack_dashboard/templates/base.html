@@ -28,4 +28,11 @@
       {% include "_scripts.html" %}
     {% endblock %}
   </body>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            if(window.screen.height > $("#main_content").height()){
+                $("#main_content").height(window.screen.height);
+            }
+        });
+  </script>
 </html>

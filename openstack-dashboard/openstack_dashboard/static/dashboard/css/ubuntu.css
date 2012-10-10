@@ -154,8 +154,14 @@ body {
    //border-right: 5px solid #e5e5e5;
    //border-bottom: 5px solid #e5e5e5;
     float: left;
-    height:850px;
-    margin-bottom: 0px;
+   // height:885px;
+   // margin-bottom: 0px;
+    padding-bottom:100000px;
+    margin-bottom:-100000px;
+}
+
+#container{
+    overflow:hidden;
 }
 
 .sidebar h4 {
@@ -164,7 +170,8 @@ body {
 }
 
 .sidebar .nav-tabs {
-    margin-top: 55px;
+    //margin-top: 55px;
+    margin-top: 120px;
 }
 
 .sidebar .nav-tabs li.active a {
